@@ -1216,7 +1216,7 @@
 						)
 					)
 				)
-				(number "J6-3"
+				(number "J1-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1350,8 +1350,8 @@
 					)
 				)
 			)
-			(text_box "J1"
-				(at 8.255 -2.54 0)
+			(text_box "J2"
+				(at 6.985 -16.51 0)
 				(size 3.81 -5.08)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
@@ -1368,9 +1368,9 @@
 					(justify left)
 				)
 			)
-			(text_box "J4"
-				(at 10.795 -16.51 0)
-				(size -3.81 -5.08)
+			(text_box "J1"
+				(at 8.255 -2.54 0)
+				(size 3.81 -5.08)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width -0.0001)
