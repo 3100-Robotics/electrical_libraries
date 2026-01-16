@@ -1203,7 +1203,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -15.24) (xy 11.43 -15.24) (xy 11.43 -10.16) (xy 0 -10.16)
+					(xy 0 -16.51) (xy 11.43 -16.51) (xy 11.43 -11.43) (xy 0 -11.43)
 				)
 				(stroke
 					(width 0)
@@ -1215,7 +1215,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -21.59) (xy 11.43 -21.59) (xy 11.43 -16.51) (xy 0 -16.51)
+					(xy 0 -24.13) (xy 11.43 -24.13) (xy 11.43 -19.05) (xy 0 -19.05)
 				)
 				(stroke
 					(width 0)
@@ -1323,27 +1323,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 -11.43 0)
+				(at -7.62 -12.7 0)
 				(length 7.62)
 				(name "CANH"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J2-2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -7.62 -13.97 0)
-				(length 7.62)
-				(name "CANL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1359,16 +1341,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 -17.78 0)
+				(at -7.62 -15.24 0)
 				(length 7.62)
-				(name "CANH"
+				(name "CANL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J3-2"
+				(number "J2-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1379,7 +1361,7 @@
 			(pin bidirectional line
 				(at -7.62 -20.32 0)
 				(length 7.62)
-				(name "CANL"
+				(name "CANH"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1387,6 +1369,24 @@
 					)
 				)
 				(number "J3-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -22.86 0)
+				(length 7.62)
+				(name "CANL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J3-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1511,7 +1511,7 @@
 				)
 			)
 			(text_box "J2"
-				(at 6.985 -10.16 0)
+				(at 6.985 -11.43 0)
 				(size 3.81 -5.08)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
@@ -1529,7 +1529,7 @@
 				)
 			)
 			(text_box "J3"
-				(at 6.985 -16.51 0)
+				(at 6.985 -19.05 0)
 				(size 3.81 -5.08)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
