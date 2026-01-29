@@ -8812,7 +8812,7 @@
 		(symbol "SENSOR_ENCODER_CANCODER_0_1"
 			(rectangle
 				(start 0 0)
-				(end 25.4 -25.4)
+				(end 17.78 -25.4)
 				(stroke
 					(width 0)
 					(type default)
@@ -8858,9 +8858,9 @@
 				)
 			)
 			(arc
-				(start 20.32 -1.27)
-				(mid 21.3721 -3.81)
-				(end 20.32 -6.35)
+				(start 15.24 -15.24)
+				(mid 16.2921 -17.78)
+				(end 15.24 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -8870,7 +8870,7 @@
 				)
 			)
 			(circle
-				(center 19.05 -3.81)
+				(center 13.97 -17.78)
 				(radius 1.4199)
 				(stroke
 					(width 0)
@@ -8882,7 +8882,7 @@
 			)
 			(polyline
 				(pts
-					(xy 20.32 -1.27) (xy 20.32 -1.905)
+					(xy 15.24 -15.24) (xy 15.24 -15.875)
 				)
 				(stroke
 					(width 0)
@@ -8894,7 +8894,7 @@
 			)
 			(polyline
 				(pts
-					(xy 20.32 -1.27) (xy 20.955 -1.27)
+					(xy 15.24 -15.24) (xy 15.875 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -8906,7 +8906,7 @@
 			)
 			(polyline
 				(pts
-					(xy 20.32 -6.35) (xy 20.32 -5.715)
+					(xy 15.24 -20.32) (xy 15.24 -19.685)
 				)
 				(stroke
 					(width 0)
@@ -8918,7 +8918,7 @@
 			)
 			(polyline
 				(pts
-					(xy 20.32 -6.35) (xy 20.955 -6.35)
+					(xy 15.24 -20.32) (xy 15.875 -20.32)
 				)
 				(stroke
 					(width 0)
