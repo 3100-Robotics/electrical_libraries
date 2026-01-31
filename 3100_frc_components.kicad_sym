@@ -9423,11 +9423,59 @@
 			)
 			(polyline
 				(pts
+					(xy 34.29 -74.93) (xy 33.02 -74.93)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 34.29 -80.01) (xy 33.02 -80.01)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 34.29 -85.09) (xy 33.02 -85.09)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 34.29 -87.63) (xy 55.88 -87.63)
 				)
 				(stroke
 					(width 0)
 					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 34.29 -90.17) (xy 33.02 -90.17)
+				)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
