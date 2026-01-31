@@ -8581,18 +8581,6 @@
 		(symbol "POWER_DISTRIBUTION_REV-11-1850_PHYSICAL_0_1"
 			(polyline
 				(pts
-					(xy 19.05 0) (xy 19.05 -15.24) (xy 29.21 -15.24) (xy 29.21 0)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 19.05 -41.91) (xy 19.05 -92.71)
 				)
 				(stroke
@@ -9345,6 +9333,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 52.07 0) (xy 52.07 -15.24) (xy 41.91 -15.24) (xy 41.91 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "POWER_DISTRIBUTION_REV-11-1850_PHYSICAL_1_0"
 			(pin power_out line
@@ -9743,35 +9743,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 20.32 7.62 270)
-				(length 7.62)
-				(name "CANH"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J25-1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 22.86 7.62 270)
 				(length 7.62)
-				(name "CANL"
+				(name "J27-3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J25-2"
+				(number "J27-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9779,17 +9761,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 25.4 7.62 270)
 				(length 7.62)
-				(name ""
+				(name "J27-2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J25-3"
+				(number "J27-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9797,17 +9779,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 27.94 7.62 270)
 				(length 7.62)
-				(name ""
+				(name "J27-1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J25-4"
+				(number "J27-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9818,14 +9800,14 @@
 			(pin no_connect line
 				(at 33.02 7.62 270)
 				(length 7.62)
-				(name "J26-1"
+				(name "J26-3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J26-1"
+				(number "J26-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9854,14 +9836,14 @@
 			(pin no_connect line
 				(at 38.1 7.62 270)
 				(length 7.62)
-				(name "J26-3"
+				(name "J26-1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J26-3"
+				(number "J26-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9869,17 +9851,17 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin bidirectional line
 				(at 43.18 7.62 270)
 				(length 7.62)
-				(name "J27-1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J27-1"
+				(number "J25-4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9887,17 +9869,17 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin bidirectional line
 				(at 45.72 7.62 270)
 				(length 7.62)
-				(name "J27-2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J27-2"
+				(number "J25-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9905,17 +9887,35 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin bidirectional line
 				(at 48.26 7.62 270)
 				(length 7.62)
-				(name "J27-3"
+				(name "CANL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J27-3"
+				(number "J25-2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 50.8 7.62 270)
+				(length 7.62)
+				(name "CANH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J25-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10586,32 +10586,6 @@
 			)
 			(polyline
 				(pts
-					(xy 20.32 -6.35) (xy 20.32 -8.89) (xy 25.4 -8.89) (xy 25.4 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 255 255 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.86 -6.35) (xy 22.86 -7.62) (xy 27.94 -7.62) (xy 27.94 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 255 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 26.67 -38.1) (xy 26.67 -22.86)
 				)
 				(stroke
@@ -10648,7 +10622,7 @@
 			)
 			(polyline
 				(pts
-					(xy 31.75 0) (xy 31.75 -15.24) (xy 39.37 -15.24) (xy 39.37 0)
+					(xy 29.21 0) (xy 29.21 -15.24) (xy 21.59 -15.24) (xy 21.59 0)
 				)
 				(stroke
 					(width 0)
@@ -10672,11 +10646,37 @@
 			)
 			(polyline
 				(pts
-					(xy 41.91 0) (xy 41.91 -15.24) (xy 49.53 -15.24) (xy 49.53 0)
+					(xy 39.37 0) (xy 39.37 -15.24) (xy 31.75 -15.24) (xy 31.75 0)
 				)
 				(stroke
 					(width 0)
 					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 48.26 -6.35) (xy 48.26 -7.62) (xy 43.18 -7.62) (xy 43.18 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 255 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 50.8 -6.35) (xy 50.8 -8.89) (xy 45.72 -8.89) (xy 45.72 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 255 255 0 1)
 				)
 				(fill
 					(type none)
@@ -11058,27 +11058,9 @@
 					(justify right)
 				)
 			)
-			(text_box "J25"
-				(at 21.59 -10.16 90)
-				(size 5.08 -5.08)
-				(margins 1.016 1.016 1.016 1.016)
-				(stroke
-					(width -0.0001)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.905 1.905)
-					)
-					(justify left)
-				)
-			)
-			(text_box "J26"
-				(at 33.02 -15.24 90)
-				(size 5.08 3.81)
+			(text_box "J27"
+				(at 27.94 -15.24 90)
+				(size -5.08 3.81)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width -0.0001)
@@ -11346,9 +11328,27 @@
 					(justify left)
 				)
 			)
-			(text_box "J27"
-				(at 43.18 -15.24 90)
-				(size 5.08 3.81)
+			(text_box "J26"
+				(at 38.1 -15.24 90)
+				(size -5.08 3.81)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify left)
+				)
+			)
+			(text_box "J25"
+				(at 49.53 -10.16 90)
+				(size -5.08 -5.08)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width -0.0001)
