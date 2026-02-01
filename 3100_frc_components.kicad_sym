@@ -12671,7 +12671,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "D36V50F5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12688,7 +12688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pololu.com/product/4091"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12697,7 +12697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V, 5.5A Step-Down Voltage Regulator"
 			(at 0 0 0)
 			(effects
 				(font
