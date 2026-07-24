@@ -13812,7 +13812,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 12.954 -20.066 0)
+			(at 12.954 -20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13889,7 +13889,7 @@
 		(symbol "PWR_ONLY_MOTOR_CONTROLLER_SPARK_MAX_REV-11-2158_1_0_1"
 			(rectangle
 				(start 0 -17.78)
-				(end 30.48 -25.4)
+				(end 26.67 -25.4)
 				(stroke
 					(width 0)
 					(type default)
@@ -13978,7 +13978,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 20.828 -14.986 0)
+			(at 13.462 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13988,7 +13988,7 @@
 			)
 		)
 		(property "Value" "19-708850"
-			(at 6.096 -20.574 0)
+			(at 5.842 -11.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14020,7 +14020,7 @@
 			)
 		)
 		(property "Description" "Falcon 500"
-			(at 5.842 -18.796 0)
+			(at 5.588 -9.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14031,8 +14031,8 @@
 		)
 		(symbol "PWR_ONLY_MOTOR_FALCON_500_0_1"
 			(rectangle
-				(start 0 -11.43)
-				(end 25.4 -21.59)
+				(start 0 -8.89)
+				(end 20.32 -19.05)
 				(stroke
 					(width 0)
 					(type default)
@@ -14184,7 +14184,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0.762 -7.62 0)
+			(at 1.27 2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14194,7 +14194,7 @@
 			)
 		)
 		(property "Value" "WCP-0940"
-			(at 13.97 -9.906 0)
+			(at 14.478 -0.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14226,7 +14226,7 @@
 			)
 		)
 		(property "Description" "Kraken X60"
-			(at 13.97 -7.874 0)
+			(at 14.478 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14237,8 +14237,8 @@
 		)
 		(symbol "PWR_ONLY_MOTOR_KRAKEN_X60_1_0_1"
 			(rectangle
-				(start 0 0)
-				(end 20.32 -11.43)
+				(start 0 3.81)
+				(end 20.32 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -17002,7 +17002,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 8.89 -16.51 0)
+			(at 8.128 -16.002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17012,7 +17012,7 @@
 			)
 		)
 		(property "Value" "VH-109"
-			(at 12.192 -18.288 0)
+			(at 11.43 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17056,8 +17056,8 @@
 		)
 		(symbol "PWR_ONLY_RADIO_VH109_1_0_1"
 			(rectangle
-				(start 0 -13.97)
-				(end 35.56 -20.32)
+				(start 0 -12.7)
+				(end 35.56 -19.05)
 				(stroke
 					(width 0)
 					(type default)
@@ -17067,9 +17067,9 @@
 				)
 			)
 			(arc
-				(start 29.845 -15.24)
-				(mid 31.4325 -14.5824)
-				(end 33.02 -15.24)
+				(start 29.083 -14.732)
+				(mid 30.6705 -14.0744)
+				(end 32.258 -14.732)
 				(stroke
 					(width 0)
 					(type default)
@@ -17079,9 +17079,9 @@
 				)
 			)
 			(arc
-				(start 31.115 -16.51)
-				(mid 31.4325 -16.3785)
-				(end 31.75 -16.51)
+				(start 30.353 -16.002)
+				(mid 30.6705 -15.8705)
+				(end 30.988 -16.002)
 				(stroke
 					(width 0)
 					(type default)
@@ -17091,9 +17091,9 @@
 				)
 			)
 			(arc
-				(start 30.48 -15.875)
-				(mid 31.4325 -15.4805)
-				(end 32.385 -15.875)
+				(start 29.718 -15.367)
+				(mid 30.6705 -14.9725)
+				(end 31.623 -15.367)
 				(stroke
 					(width 0)
 					(type default)
@@ -17105,7 +17105,7 @@
 		)
 		(symbol "PWR_ONLY_RADIO_VH109_1_1_1"
 			(text "2.4G / 6GHz WiFi"
-				(at 26.162 -18.288 0)
+				(at 25.4 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -17298,7 +17298,7 @@
 			)
 		)
 		(property "Value" "22-676768"
-			(at 6.096 -9.144 0)
+			(at 7.366 -0.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17330,7 +17330,7 @@
 			)
 		)
 		(property "Description" "CANCoder"
-			(at 5.842 -7.366 0)
+			(at 7.112 1.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17341,8 +17341,8 @@
 		)
 		(symbol "PWR_ONLY_SENSOR_ENCODER_CANCODER_1_0_1"
 			(rectangle
-				(start 0 0)
-				(end 17.78 -10.16)
+				(start 0 2.54)
+				(end 17.78 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -17512,7 +17512,7 @@
 			)
 		)
 		(property "Value" "21-737785"
-			(at 6.096 -9.144 0)
+			(at 9.652 0.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17544,7 +17544,7 @@
 			)
 		)
 		(property "Description" "Pigeon 2.0"
-			(at 5.842 -7.366 0)
+			(at 9.398 2.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17555,8 +17555,8 @@
 		)
 		(symbol "PWR_ONLY_SENSOR_IMU_PIGEON2_0_1"
 			(rectangle
-				(start 0 0)
-				(end 25.4 -11.43)
+				(start 0 3.81)
+				(end 25.4 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -17578,7 +17578,7 @@
 				)
 			)
 			(circle
-				(center 18.034 -3.81)
+				(center 18.034 0)
 				(radius 2.54)
 				(stroke
 					(width 0)
@@ -17590,7 +17590,7 @@
 			)
 			(polyline
 				(pts
-					(xy 18.034 -6.35) (xy 18.034 -8.89)
+					(xy 18.034 -2.54) (xy 18.034 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -17602,7 +17602,7 @@
 			)
 			(polyline
 				(pts
-					(xy 20.574 -3.81) (xy 23.114 -3.81)
+					(xy 20.574 0) (xy 23.114 0)
 				)
 				(stroke
 					(width 0)
@@ -17653,7 +17653,7 @@
 		)
 		(symbol "PWR_ONLY_SENSOR_IMU_PIGEON2_1_1"
 			(text "Z"
-				(at 17.78 -3.81 0)
+				(at 17.78 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -17661,7 +17661,7 @@
 				)
 			)
 			(text "X"
-				(at 18.034 -10.16 0)
+				(at 18.034 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -17669,7 +17669,7 @@
 				)
 			)
 			(text "Y"
-				(at 24.13 -3.81 0)
+				(at 24.13 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
