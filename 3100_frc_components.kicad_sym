@@ -17057,7 +17057,7 @@
 		(symbol "PWR_ONLY_RADIO_VH109_1_0_1"
 			(rectangle
 				(start 0 -12.7)
-				(end 35.56 -19.05)
+				(end 17.78 -19.05)
 				(stroke
 					(width 0)
 					(type default)
@@ -17067,9 +17067,9 @@
 				)
 			)
 			(arc
-				(start 29.083 -14.732)
-				(mid 30.6705 -14.0744)
-				(end 32.258 -14.732)
+				(start 0.127 -8.636)
+				(mid 1.7145 -7.9784)
+				(end 3.302 -8.636)
 				(stroke
 					(width 0)
 					(type default)
@@ -17079,9 +17079,9 @@
 				)
 			)
 			(arc
-				(start 30.353 -16.002)
-				(mid 30.6705 -15.8705)
-				(end 30.988 -16.002)
+				(start 1.397 -9.906)
+				(mid 1.7145 -9.7745)
+				(end 2.032 -9.906)
 				(stroke
 					(width 0)
 					(type default)
@@ -17091,9 +17091,9 @@
 				)
 			)
 			(arc
-				(start 29.718 -15.367)
-				(mid 30.6705 -14.9725)
-				(end 31.623 -15.367)
+				(start 0.762 -9.271)
+				(mid 1.7145 -8.8765)
+				(end 2.667 -9.271)
 				(stroke
 					(width 0)
 					(type default)
@@ -17105,7 +17105,7 @@
 		)
 		(symbol "PWR_ONLY_RADIO_VH109_1_1_1"
 			(text "2.4G / 6GHz WiFi"
-				(at 25.4 -17.78 0)
+				(at 8.89 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
