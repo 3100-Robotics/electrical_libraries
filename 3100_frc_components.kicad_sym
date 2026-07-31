@@ -17901,7 +17901,7 @@
 			(pin input line
 				(at -8.89 -3.81 0)
 				(length 6.35)
-				(name "VBAT_POS"
+				(name "VBAT_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17919,7 +17919,7 @@
 			(pin input line
 				(at -8.89 -6.35 0)
 				(length 6.35)
-				(name "VBAT_GND"
+				(name "GND_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17937,7 +17937,7 @@
 			(pin input line
 				(at -8.89 -8.89 0)
 				(length 6.35)
-				(name "VBAT_POS"
+				(name "VBAT_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
