@@ -13662,6 +13662,118 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "PWR_ONLY_CONTROLLER_ROBORIO_COMPACT_1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 11.176 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RoboRIO 2.0"
+			(at 16.51 -4.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ni.com/docs/en-US/bundle/roborio-20-specs/page/specs.html?srsltid=AfmBOoo1SOUhmCN-7aowyIRa12foCrghJl44AdTOuRRRnqSM-QbGFuEC"
+			(at 1.016 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RoboRIO 2.0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_ONLY_CONTROLLER_ROBORIO_COMPACT_1_0_1"
+			(rectangle
+				(start 0 0)
+				(end 10.16 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PWR_ONLY_CONTROLLER_ROBORIO_COMPACT_1_1_1"
+			(pin power_in line
+				(at -7.62 -2.54 0)
+				(length 7.62)
+				(name "VBAT_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J39-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -5.08 0)
+				(length 7.62)
+				(name "GND_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J39-2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "PWR_ONLY_INTERFACE_CANIVORE_1"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17704,7 +17816,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 2.286 -3.81 0)
+			(at 9.652 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17759,7 +17871,7 @@
 		(symbol "PWR_ONLY_VIS_RSL_0_1"
 			(rectangle
 				(start -2.54 -2.54)
-				(end 1.27 -10.16)
+				(end 8.89 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -17771,7 +17883,7 @@
 		)
 		(symbol "PWR_ONLY_VIS_RSL_1_1"
 			(text "12V AC/DC"
-				(at 7.112 -6.35 0)
+				(at 14.478 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -17779,7 +17891,7 @@
 				)
 			)
 			(text "Panel Mount Beacon"
-				(at 11.684 -8.89 0)
+				(at 19.05 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -17787,34 +17899,16 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -3.81 0)
-				(length 2.54)
-				(name "J1"
+				(at -8.89 -3.81 0)
+				(length 6.35)
+				(name "VBAT_POS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 -6.35 0)
-				(length 2.54)
-				(name "J2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "J1-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17823,16 +17917,190 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -8.89 0)
-				(length 2.54)
-				(name "J3"
+				(at -8.89 -6.35 0)
+				(length 6.35)
+				(name "VBAT_GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "J1-2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -8.89 0)
+				(length 6.35)
+				(name "VBAT_POS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1-3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PWR_ONLY_VRM_Zinc V"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 4.572 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_ONLY_VRM_Zinc V_0_1"
+			(rectangle
+				(start -6.35 -1.27)
+				(end 3.81 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PWR_ONLY_VRM_Zinc V_1_1"
+			(text "Zinc V"
+				(at 7.112 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 6.35)
+				(name "VIN(16V)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 6.35)
+				(name "VIN(16V)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1-2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -7.62 0)
+				(length 6.35)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1-3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -10.16 0)
+				(length 6.35)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1-4"
 					(effects
 						(font
 							(size 1.27 1.27)
