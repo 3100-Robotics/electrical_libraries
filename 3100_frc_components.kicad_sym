@@ -1295,7 +1295,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0.762 -5.334 0)
+			(at 18.542 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1305,7 +1305,7 @@
 			)
 		)
 		(property "Value" "22-676768"
-			(at 6.096 -9.144 0)
+			(at 23.876 -14.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1337,7 +1337,7 @@
 			)
 		)
 		(property "Description" "CANCoder"
-			(at 5.842 -7.366 0)
+			(at 22.352 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1348,7 +1348,7 @@
 		)
 		(symbol "CAN_ONLY_SENSOR_ENCODER_CANCODER_0_1"
 			(rectangle
-				(start 0 -6.35)
+				(start 0 -10.16)
 				(end 17.78 -25.4)
 				(stroke
 					(width 0)
