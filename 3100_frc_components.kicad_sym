@@ -7748,7 +7748,290 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< HEAD
 	(symbol "INTERFACE_CANIVORE_R"
+=======
+	(symbol "MOTOR_CIM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 16.51 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Brushed Motor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MOTOR_CIM_0_1"
+			(rectangle
+				(start 0 0)
+				(end 24.13 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy 2.54 -20.32) (xy 6.35 -20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -10.16) (xy 7.62 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -20.32)
+				(mid 6.722 -19.422)
+				(end 7.62 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.62 -19.05)
+				(mid 8.518 -19.422)
+				(end 8.89 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8.89 -20.32)
+				(mid 9.262 -19.422)
+				(end 10.16 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 10.16 -19.05)
+				(mid 11.058 -19.422)
+				(end 11.43 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 11.43 -10.16)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -11.43) (xy 12.7 -8.89) (xy 11.43 -10.16) (xy 10.16 -8.89) (xy 10.16 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 11.43 -20.32)
+				(mid 11.802 -19.422)
+				(end 12.7 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 12.7 -19.05)
+				(mid 13.598 -19.422)
+				(end 13.97 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -10.16) (xy 20.32 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 13.97 -20.32)
+				(mid 14.342 -19.422)
+				(end 15.24 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 15.24 -19.05)
+				(mid 16.138 -19.422)
+				(end 16.51 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 -20.32) (xy 20.32 -20.32) (xy 20.32 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MOTOR_CIM_1_0"
+			(pin power_in line
+				(at -7.62 -2.54 0)
+				(length 7.62)
+				(name "M+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 31.75 -2.54 180)
+				(length 7.62)
+				(name "M-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1-2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MOTOR_CONTROLLER_SPARK_MAX_REV-11-2158"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8539,14 +8822,22 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< HEAD
 	(symbol "MOTOR_CONTROLLER_SPARK_MAX_REV-11-2158_R"
+=======
+	(symbol "MOTOR_CONTROLLER_TALON_SRX_CTRE_14-838288"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
+<<<<<<< HEAD
 			(at 20.828 -23.114 0)
+=======
+			(at 0 0 0)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8555,8 +8846,13 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "REV-11-2158"
 			(at 9.144 -24.384 0)
+=======
+		(property "Value" "14-838288"
+			(at 0 0 0)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8566,7 +8862,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 			(at 22.86 -21.59 0)
+=======
+			(at 0 0 0)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -8576,8 +8876,13 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Datasheet" "https://docs.revrobotics.com/brushless/spark-max/specs"
 			(at 18.034 -27.94 0)
+=======
+		(property "Datasheet" "https://ctre.download/files/user-manual/Talon%20SRX%20User's%20Guide.pdf"
+			(at 0 0 0)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -8587,8 +8892,13 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "REV"
 			(at 35.814 -21.844 0)
+=======
+		(property "Description" "Brushed motor controller from CTRE"
+			(at 0 0 0)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -8598,6 +8908,7 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "REV Robotics"
 			(at 22.352 -25.4 0)
 			(show_name no)
@@ -8672,6 +8983,60 @@
 			(rectangle
 				(start 22.86 -21.59)
 				(end -7.62 6.35)
+=======
+		(symbol "MOTOR_CONTROLLER_TALON_SRX_CTRE_14-838288_0_1"
+			(rectangle
+				(start 0 -2.54)
+				(end 30.48 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -8.89) (xy 11.43 -8.89) (xy 11.43 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -11.43) (xy 13.97 -11.43) (xy 13.97 -21.59) (xy 0 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.48 -3.81) (xy 19.05 -3.81) (xy 19.05 -29.21) (xy 30.48 -29.21)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.48 -36.83) (xy 17.78 -36.83) (xy 17.78 -31.75) (xy 30.48 -31.75)
+				)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				(stroke
 					(width 0)
 					(type default)
@@ -8681,18 +9046,41 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(symbol "MOTOR_CONTROLLER_SPARK_MAX_REV-11-2158_R_1_0"
 			(pin bidirectional line
 				(at 30.48 -11.43 180)
+=======
+		(symbol "MOTOR_CONTROLLER_TALON_SRX_CTRE_14-838288_1_0"
+			(pin power_in line
+				(at -7.62 -5.08 0)
 				(length 7.62)
-				(name "CANH"
+				(name "VBAT_P"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J3-1"
+				(number "J1-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -7.62 0)
+				(length 7.62)
+				(name "VBAT_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8701,9 +9089,110 @@
 				)
 			)
 			(pin bidirectional line
+				(at -7.62 -20.32 0)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -17.78 0)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2-2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -15.24 0)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
+				(length 7.62)
+				(name "CANH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+<<<<<<< HEAD
+=======
+				(number "J2-3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -12.7 0)
+				(length 7.62)
+				(name "CANL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2-4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 38.1 -33.02 180)
+				(length 7.62)
+				(name "MOTOR_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
+				(number "J3-1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+<<<<<<< HEAD
+			(pin bidirectional line
 				(at 30.48 -13.97 180)
 				(length 7.62)
 				(name "CANL"
+=======
+			(pin power_out line
+				(at 38.1 -35.56 180)
+				(length 7.62)
+				(name "MOTOR_N"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8718,6 +9207,7 @@
 					)
 				)
 			)
+<<<<<<< HEAD
 			(pin bidirectional line
 				(at 30.48 -16.51 180)
 				(length 7.62)
@@ -8758,6 +9248,12 @@
 				(at -15.24 -8.89 0)
 				(length 7.62)
 				(name "GND"
+=======
+			(pin power_out line
+				(at 38.1 -5.08 180)
+				(length 7.62)
+				(name "+3v3"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8772,10 +9268,17 @@
 					)
 				)
 			)
+<<<<<<< HEAD
 			(pin input line
 				(at -15.24 -6.35 0)
 				(length 7.62)
 				(name "ENC_C/IDX"
+=======
+			(pin power_out line
+				(at 38.1 -7.62 180)
+				(length 7.62)
+				(name "+5V"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8791,9 +9294,15 @@
 				)
 			)
 			(pin input line
+<<<<<<< HEAD
 				(at -15.24 -3.81 0)
 				(length 7.62)
 				(name "ENC_B"
+=======
+				(at 38.1 -10.16 180)
+				(length 7.62)
+				(name "AN_IN"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8809,9 +9318,15 @@
 				)
 			)
 			(pin input line
+<<<<<<< HEAD
 				(at -15.24 -1.27 0)
 				(length 7.62)
 				(name "ENC_A"
+=======
+				(at 38.1 -12.7 180)
+				(length 7.62)
+				(name "FWD_LIM"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8827,9 +9342,15 @@
 				)
 			)
 			(pin input line
+<<<<<<< HEAD
 				(at -15.24 1.27 0)
 				(length 7.62)
 				(name "MTR_TMP"
+=======
+				(at 38.1 -15.24 180)
+				(length 7.62)
+				(name "QUAD_B"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8844,10 +9365,17 @@
 					)
 				)
 			)
+<<<<<<< HEAD
 			(pin power_out line
 				(at -15.24 3.81 0)
 				(length 7.62)
 				(name "+5V"
+=======
+			(pin no_connect line
+				(at 38.1 -17.78 180)
+				(length 7.62)
+				(name "DNC"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8862,17 +9390,28 @@
 					)
 				)
 			)
+<<<<<<< HEAD
 			(pin power_in line
 				(at 30.48 1.27 180)
 				(length 7.62)
 				(name "VBAT_P"
+=======
+			(pin input line
+				(at 38.1 -20.32 180)
+				(length 7.62)
+				(name "QUAD_A"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< HEAD
 				(number "J5-1"
+=======
+				(number "J4-7"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8880,17 +9419,46 @@
 					)
 				)
 			)
+<<<<<<< HEAD
 			(pin power_in line
 				(at 30.48 -1.27 180)
 				(length 7.62)
 				(name "VBAT_N"
+=======
+			(pin input line
+				(at 38.1 -22.86 180)
+				(length 7.62)
+				(name "REV_LIM"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< HEAD
 				(number "J5-2"
+=======
+				(number "J4-8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 38.1 -25.4 180)
+				(length 7.62)
+				(name "QUAD_IDX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J4-9"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8899,15 +9467,22 @@
 				)
 			)
 			(pin power_out line
+<<<<<<< HEAD
 				(at -15.24 -19.05 0)
 				(length 7.62)
 				(name "PHASE_A"
+=======
+				(at 38.1 -27.94 180)
+				(length 7.62)
+				(name "GND"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< HEAD
 				(number "J6-1"
 					(effects
 						(font
@@ -8945,6 +9520,9 @@
 					)
 				)
 				(number "J6-3"
+=======
+				(number "J4-10"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8953,15 +9531,26 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(symbol "MOTOR_CONTROLLER_SPARK_MAX_REV-11-2158_R_1_1"
 			(polyline
 				(pts
 					(xy 22.86 -16.51) (xy 13.97 -16.51) (xy 13.97 -11.43) (xy 16.51 -11.43)
+=======
+		(symbol "MOTOR_CONTROLLER_TALON_SRX_CTRE_14-838288_1_1"
+			(polyline
+				(pts
+					(xy 6.35 -12.7) (xy 8.89 -12.7) (xy 8.89 -17.78) (xy 0 -17.78)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				)
 				(stroke
 					(width 0)
 					(type default)
+<<<<<<< HEAD
 					(color 255 255 0 1)
+=======
+					(color 14 255 0 1)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				)
 				(fill
 					(type none)
@@ -8969,20 +9558,34 @@
 			)
 			(polyline
 				(pts
+<<<<<<< HEAD
 					(xy 22.86 -19.05) (xy 15.24 -19.05) (xy 15.24 -13.97) (xy 16.51 -13.97)
+=======
+					(xy 6.35 -15.24) (xy 7.62 -15.24) (xy 7.62 -20.32) (xy 0 -20.32)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				)
 				(stroke
 					(width 0)
 					(type default)
+<<<<<<< HEAD
 					(color 0 255 0 1)
+=======
+					(color 255 225 0 1)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				)
 				(fill
 					(type none)
 				)
 			)
+<<<<<<< HEAD
 			(text_box "J4"
 				(at 3.175 -5.08 0)
 				(size -3.81 5.08)
+=======
+			(text_box "J1"
+				(at 6.985 -3.81 0)
+				(size 3.81 -5.0967)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width -0.0001)
@@ -8995,12 +9598,21 @@
 					(font
 						(size 1.905 1.905)
 					)
+<<<<<<< HEAD
 					(justify right)
 				)
 			)
 			(text_box "J6"
 				(at 4.445 -19.05 0)
 				(size -3.81 5.08)
+=======
+					(justify left)
+				)
+			)
+			(text_box "J2"
+				(at 9.7428 -13.9313 0)
+				(size 3.81 -5.0967)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width -0.0001)
@@ -9017,8 +9629,13 @@
 				)
 			)
 			(text_box "J3"
+<<<<<<< HEAD
 				(at 7.62 -12.7 0)
 				(size 3.81 -5.08)
+=======
+				(at 18.5095 -31.6471 0)
+				(size 3.81 -5.0967)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width -0.0001)
@@ -9034,8 +9651,13 @@
 					(justify right)
 				)
 			)
+<<<<<<< HEAD
 			(text_box "J5"
 				(at 11.43 2.54 0)
+=======
+			(text_box "J4"
+				(at 20.32 -5.08 0)
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 				(size 3.81 -5.08)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
@@ -9049,6 +9671,7 @@
 					(font
 						(size 1.905 1.905)
 					)
+<<<<<<< HEAD
 					(justify left)
 				)
 			)
@@ -9067,13 +9690,19 @@
 					(font
 						(size 1.27 1.27)
 					)
+=======
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 					(justify right)
 				)
 			)
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< HEAD
 	(symbol "MOTOR_FALCON_500_L"
+=======
+	(symbol "MOTOR_FALCON_500"
+>>>>>>> 44695e03e43f85121cbbb41390313c76abbd3019
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
