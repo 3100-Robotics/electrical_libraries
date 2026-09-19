@@ -3004,7 +3004,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0.508 1.016 0)
+			(at 0.508 2.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3014,10 +3014,9 @@
 			)
 		)
 		(property "Value" "RoboRIO 2.0"
-			(at 5.588 -9.652 0)
+			(at 5.842 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
