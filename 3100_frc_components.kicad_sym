@@ -20771,7 +20771,7 @@
 			(pin power_in line
 				(at -10.16 0 0)
 				(length 7.62)
-				(name "5V"
+				(name "12V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20807,7 +20807,7 @@
 			(pin power_in line
 				(at -10.16 -5.08 0)
 				(length 7.62)
-				(name "5V"
+				(name "12V"
 					(effects
 						(font
 							(size 1.27 1.27)
